@@ -1,0 +1,101 @@
+Main page:
+<!DOCTYPE html>
+<head>
+    <title>EMPLOYEE MANGEMENT SYSTEM</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            background-image:url('https://t3.ftcdn.net/jpg/03/57/42/06/360_F_357420655_oQ2haRO7xTNsgZgnt8Ms5Iwdbg96abaE.jpg');
+            
+           
+        }
+            
+        
+        header {
+            background-color:grey;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            /* display: flex; */
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            margin: 10;
+            padding: 0;
+            list-style: none;
+            display: flex;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    
+        nav a:hover {
+            color: blue;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            background-image:url('https://t3.ftcdn.net/jpg/03/57/42/06/360_F_357420655_oQ2haRO7xTNsgZgnt8Ms5Iwdbg96abaE.jpg');
+
+
+         
+        }
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .bottomleft{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To <br>PK'S Employee Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/THIRU/OneDrive/Desktop/WD/LOGIN.html">Login</a></li>
+            <li><a href="">Our Staffs</a></li>
+            <li><a href="file:///C:/Users/THIRU/OneDrive/Desktop/WD/SIGN%20UP.html">Sign Up</a></li>
+            <li><a href="file:///C:/Users/THIRU/OneDrive/Desktop/WD/CONTACT%20US.html">Contact us</a></li>
+        </ul>
+        <form action="#" method="get">
+            <input type="text" name="search" placeholder="Search...">
+            <button type="submit">Go</button>
+        </form>
+    </nav>
+   
+    <main>
+            
+    </main>
+    <p class="bottomleft">&copy; 2023 PK'S Employee website. All rights reserved.</p>
+</body>
+</html>
+
+
+
+

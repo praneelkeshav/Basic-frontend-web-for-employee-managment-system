@@ -1,0 +1,223 @@
+Attendance Page:
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Employees</title>
+
+
+</head>
+<body>
+
+
+<h1>Employees</h1>
+
+
+<body>
+  <style>
+    body {
+    line-height: 1.6;
+    margin: 2em;
+}
+
+
+th {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+
+td {
+    border-top: 1px solid #eee;
+    padding: 0.5em 1em;
+}
+
+
+input {
+    cursor: pointer;
+}
+
+
+th.missed-col {
+    background-color: #f00;
+}
+
+
+td.missed-col {
+    background-color: #ffecec;
+    color: #f00;
+    text-align: center;
+}
+
+
+.name-col {
+    text-align: left;
+}
+  </style>
+<section id="contact">
+<form>
+<label for="name">NAME:</label>
+<input type="text" id="name" name="name">
+<br></br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<br></br>
+<label for="DATE">DATE:</label>
+<textarea id="DATE" name="DATE"></textarea>
+<br></br>
+<label for="Attendance">Attendance:</label>
+
+
+<select id="Attendance">
+  <option value="Present">Present</option>
+  <option value="Absent">Absent</option>
+  <option value="medical leave">medical leave</option>
+  <option value="Work From Home">Work From Home</option>
+
+
+</select><br></br>
+<input type="submit" value="Submit">
+</form>
+</section>
+<a href="file:///C:/Users/THIRU/OneDrive/Desktop/WD/web%20project%202.html" class="button">Back to Home</a>*/
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="name-col">Student Name</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                    <th>11</th>
+                    <th>12</th>
+                    <th class="missed-col">Days Missed-col</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Employee">
+                    <td class="name-col">Praneel Keshav</td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="missed-col">0</td>
+                </tr>
+                <tr class="Employee">
+                    <td class="name-col">Vijayasankar</td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="missed-col">0</td>
+                </tr>
+                <tr class="Employee">
+                    <td class="name-col">Barath Kumar</td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="missed-col">0</td>
+                </tr>
+                <tr class="Employee">
+                    <td class="name-col">Chellaram</td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="missed-col">0</td>
+                </tr>
+                <tr class="Employee">
+                    <td class="name-col">Rohith Babu</td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="missed-col">0</td>
+                    <tr class="Employee">
+                      <td class="name-col">Muthu Kumaran</td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="attend-col"><input type="checkbox"></td>
+                      <td class="missed-col">0</td>
+
+
+                      <tr class="Employee">
+                        <td class="name-col">Purushothaman</td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="attend-col"><input type="checkbox"></td>
+                        <td class="missed-col">0</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="file:///C:/Users/THIRU/OneDrive/Desktop/WD/web%20project%202.html">Submit</a>
+</body>
+</html>
+

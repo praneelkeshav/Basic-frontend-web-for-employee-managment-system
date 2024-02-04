@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color: gray;
+    }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
+<h2>HTML Table</h2>
+
+
+<table>
+  <tr>
+    <th>Employee_id</th>
+    <th>Employee Name</th>
+    <th>Phone Number</th>
+    <th>Designation</th>
+  </tr>
+  <tr>
+    <td>031</td>
+    <td>Praneel Keshav</td>
+    <td>7448464647</td>
+    <td>Team head </td>
+  </tr>
+  <tr>
+    <td>034/</td>
+    <td>Vijayasankar</td>
+    <td>9835632876</td>
+    <td>CEO </td>
+  </tr>
+  <tr>
+    <td>054</td>
+    <td>Barath Kumar</td>
+    <td>8752897654</td>
+    <td>Clerk</td>
+  </tr>
+  <tr>
+    <td>052</td>
+    <td>Chellaram</td>
+    <td>5367894231</td>
+    <td>GM</td>
+  </tr>
+  <tr>
+    <td>067</td>
+    <td>Rohith Babu</td>
+    <td>9600026456</td>
+    <td>Sales Head</td>
+  </tr>
+  <tr>
+    <td>063</td>
+    <td>Muthu Kumaran</td>
+    <td>6478398672</td>
+    <td>Technical Staffs</td>
+  </tr>
+  <tr>
+    <td>069</td>
+    <td>Purushothaman</td>
+    <td>6579027456</td>
+    <td>Technical Staffs</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
